@@ -1,0 +1,15 @@
+/* Write necessery css for navbar here  */
+#navbar>h2{
+    text-align: center;
+}
+#navbar>div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+}
+#navbar >div>a{
+    color: black;
+    text-align: center;
+    background-color:rgb(255, 204, 51);
+    text-decoration: none;
+}

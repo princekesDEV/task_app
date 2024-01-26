@@ -1,0 +1,20 @@
+/* Write css related to the Home page here  */
+
+#create {
+  margin: auto;
+  text-align: center;
+  border: 1px solid rgb(200, 200, 200);
+  width: 30%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#create > form > input,
+#create > form > select {
+  width: 80%;
+  padding: 10px;
+  margin: auto;
+}
+label {
+  display: block;
+  text-align: left;
+  padding: 2% 0px 0px 10%;
+}
