@@ -4,7 +4,7 @@ Hi! I'm **Prince Kesharwani**, and I built this TODO app to learn the fundamenta
 
 ## 🌐 Deployed Link
 
-You can try the app here: [Netlify Deployed Link]()
+You can try the app here: [Netlify Deployed Link](https://fabulous-fudge-4e8ec3.netlify.app/)
 
 ## 🚀 How to Use
 
