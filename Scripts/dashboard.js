@@ -48,10 +48,12 @@ function deleteAndAdd(elem, i) {
   filter.addEventListener("change",()=>{
     if (filter.value == "") {
       displayTable(task_list);
+      document.querySelector("#task-count").innerText = task_list.length
     } else {
       const new_data = task_list.filter((elem) => {
         return elem.priority_value == filter.value;
       });
+      document.querySelector("#task-count").innerText = new_data.length;
       displayTable(new_data);
     }
   })
